@@ -11,6 +11,8 @@ int arr_length(char * arr){
     return count;
 }
 
+
+//comentario
 void k_str(char *str, int k){
     int n = arr_length(str);
 
