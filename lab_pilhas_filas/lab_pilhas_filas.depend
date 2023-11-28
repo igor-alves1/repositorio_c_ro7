@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1639918308 source:c:\users\igor\desktop\lab_pilhas_filas\tf.c
+	"TLSE.h"
+	"TF.h"
+
+1700931976 c:\users\igor\desktop\lab_pilhas_filas\tlse.h
+	<stdio.h>
+	<stdlib.h>
+
+1639918311 c:\users\igor\desktop\lab_pilhas_filas\tf.h
+	<stdio.h>
+	<stdlib.h>
+
+1700931867 source:c:\users\igor\desktop\lab_pilhas_filas\tlse.c
+	"TLSE.h"
+
+1641157189 source:c:\users\igor\desktop\lab_pilhas_filas\tp.c
+	"TLSE.h"
+	"TP.h"
+
+1641157168 c:\users\igor\desktop\lab_pilhas_filas\tp.h
+	<stdio.h>
+	<stdlib.h>
+
+1701124420 source:c:\users\igor\desktop\lab_pilhas_filas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TLSE.h"
+	"TP.h"
+	"TF.h"
+

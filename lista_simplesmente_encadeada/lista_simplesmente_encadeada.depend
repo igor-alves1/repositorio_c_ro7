@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1700764037 source:c:\users\igor\desktop\projetos_c\lista_simplesmente_encadeada\tlse.c
+	"TLSE.h"
+
+1700764036 c:\users\igor\desktop\projetos_c\lista_simplesmente_encadeada\tlse.h
+	<stdio.h>
+	<stdlib.h>
+
+1700765065 source:c:\users\igor\desktop\projetos_c\lista_simplesmente_encadeada\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TLSE.h"
+

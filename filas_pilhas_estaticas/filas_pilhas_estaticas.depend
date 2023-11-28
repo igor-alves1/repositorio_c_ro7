@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1701128966 source:c:\users\igor\desktop\filas_pilhas_estaticas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha.h"
+
+1701128727 c:\users\igor\desktop\filas_pilhas_estaticas\pilha.h
+	<stdio.h>
+	<stdlib.h>
+
+1701128996 source:c:\users\igor\desktop\filas_pilhas_estaticas\pilha.c
+	<stdio.h>
+	<stdlib.h>
+	"pilha.h"
+

@@ -1,0 +1,55 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "TF.h"
+#include "TP.h"
+
+TP *f2p(TF *f){
+    TF *fila = f;
+    TP *pilha1 = TP_inicializa(), *pilha2 = TP_inicializa();
+
+    while(!(TF_vazia(fila))){
+        int num = TF_retira(fila);
+        TP_push(pilha1, num);
+    }
+    while(!(TP_vazia(pilha1))){
+        int num = TP_pop(pilha1);
+        TP_push(pilha2, num);
+    }
+    return pilha2;
+}
+
+TF *inv_fila(TF *f){
+    TF *fila = f, *fila_inv = TP_inicializa();
+    TP *pilha = TP_inicializa();
+    int num;
+    while (!TF_vazia(fila)){
+        num = TF_retira(fila);
+        TP_push(pilha, num);
+    }
+    while (!TP_vazia(pilha)){
+        num = TP_pop(pilha);
+        TF_insere(fila_inv, num);
+    }
+    TP_libera(pilha);
+    return fila_inv;
+}
+
+TF *junta_filas(TF *f1, TF *f2){
+    TF *fila1 = f1, *fila2 = f2, fila_junta = f;
+    return NULL;
+}
+
+int main(void){
+    TF *fila = TF_inicializa(), *fila_inv = TF_inicializa();
+    int num;
+    for (int i=0; i<5; i++){
+        scanf("%d", &num);
+        TF_insere(fila, num);
+    }
+    TF_imprime(fila);
+    fila_inv = inv_fila(fila);
+    TF_imprime(fila_inv);
+    TF_libera(fila);
+    TF_libera(fila_inv);
+    return 0;
+}

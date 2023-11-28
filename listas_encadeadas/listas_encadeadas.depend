@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1639918308 source:c:\users\igor\desktop\listas_encadeadas\tf.c
+	"TLSE.h"
+	"TF.h"
+
+1700931976 c:\users\igor\desktop\listas_encadeadas\tlse.h
+	<stdio.h>
+	<stdlib.h>
+
+1639918311 c:\users\igor\desktop\listas_encadeadas\tf.h
+	<stdio.h>
+	<stdlib.h>
+
+1700931867 source:c:\users\igor\desktop\listas_encadeadas\tlse.c
+	"TLSE.h"
+
+1641157189 source:c:\users\igor\desktop\listas_encadeadas\tp.c
+	"TLSE.h"
+	"TP.h"
+
+1641157168 c:\users\igor\desktop\listas_encadeadas\tp.h
+	<stdio.h>
+	<stdlib.h>
+
+1700940503 source:c:\users\igor\desktop\listas_encadeadas\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TLSE.h"
+
