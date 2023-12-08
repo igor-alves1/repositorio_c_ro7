@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1700931867 source:c:\users\igor\desktop\revisao_q2\tlse.c
+	"TLSE.h"
+
+1700931976 c:\users\igor\desktop\revisao_q2\tlse.h
+	<stdio.h>
+	<stdlib.h>
+
+1639918308 source:c:\users\igor\desktop\revisao_q2\tf.c
+	"TLSE.h"
+	"TF.h"
+
+1639918311 c:\users\igor\desktop\revisao_q2\tf.h
+	<stdio.h>
+	<stdlib.h>
+
+1641157189 source:c:\users\igor\desktop\revisao_q2\tp.c
+	"TLSE.h"
+	"TP.h"
+
+1641157168 c:\users\igor\desktop\revisao_q2\tp.h
+	<stdio.h>
+	<stdlib.h>
+
+1701997622 source:c:\users\igor\desktop\revisao_q2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"TLSE.h"
+	"TP.h"
+
